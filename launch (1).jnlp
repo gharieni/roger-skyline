@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://aplicaciones.conacyt.mx:7443/fiel/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>FEA_CONACYT</title>
+        <vendor>Admin</vendor>
+        <homepage href=""/>
+        <description>FEA_CONACYT</description>
+        <description kind="short">FEA_CONACYT</description>
+    </information>
+    <update check="always" policy="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="FEA_CONACYT.jar" main="true"/>
+    <jar href="lib/aopalliance-1.0.jar"/>
+<jar href="lib/bccore-jdk15on-1.51.jar"/>
+<jar href="lib/bcpkix-jdk15on-1.51.jar"/>
+<jar href="lib/bcprov-jdk15on-1.51.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/commons-codec-1.9.jar"/>
+<jar href="lib/commons-io-2.5.jar"/>
+<jar href="lib/commons-logging-1.2.jar"/>
+<jar href="lib/itextpdf-5.5.10.jar"/>
+<jar href="lib/jackson-annotations-2.8.1.jar"/>
+<jar href="lib/jackson-core-2.8.1.jar"/>
+<jar href="lib/jackson-databind-2.8.1.jar"/>
+<jar href="lib/logback-classic-1.1.2.jar"/>
+<jar href="lib/spring-aop-4.3.2.RELEASE.jar"/>
+<jar href="lib/spring-beans-4.3.2.RELEASE.jar"/>
+<jar href="lib/spring-context-4.3.2.RELEASE.jar"/>
+<jar href="lib/spring-core-4.3.2.RELEASE.jar"/>
+<jar href="lib/spring-expression-4.3.2.RELEASE.jar"/>
+<jar href="lib/spring-web-4.3.2.RELEASE.jar"/>
+<jar href="lib/CertificadosDigitales-0.1.0-SNAPSHOT.jar"/>
+<jar href="lib/FIELComun-0.1.0-SNAPSHOT.jar"/>
+<jar href="lib/PDF-0.1.0-SNAPSHOT.jar"/>
+<jar href="lib/logback-core-1.1.2.jar"/>
+<jar href="lib/not-yet-commons-ssl-0.3.16.jar"/>
+<jar href="lib/slf4j-api-1.7.6.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/core-2.0.jar"/>
+<jar href="lib/core-3.1.0.jar"/>
+<jar href="lib/javase-2.0.jar"/>
+<jar href="lib/javase-3.1.0.jar"/>
+<jar href="lib/jfreesvg-2.1.jar"/>
+</resources>
+    <application-desc main-class="mx.gob.conacyt.presentancion.login.PantallaLogin">
+    </application-desc>
+</jnlp>
